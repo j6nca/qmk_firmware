@@ -1,6 +1,6 @@
 {
     "manufacturer": "j6nca",
-    "keyboard_name": "handwired/j6n55",
+    "keyboard_name": "j6n55",
     "maintainer": "j6nca",
     "bootloader": "rp2040",
     "diode_direction": "COL2ROW",
