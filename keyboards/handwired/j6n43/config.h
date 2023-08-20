@@ -28,6 +28,12 @@
 #undef I2C1_SDA_PIN
 #define I2C1_SDA_PIN GP24
 
+#undef RP2040_MCUCONF
+#define RP2040_MCUCONF
+
+#undef RP_IRQ_USB0_PRIORITY
+#define RP_IRQ_USB0_PRIORITY
+
 // // activated by default
 // #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET // Activates the double-tap behavior
 // #define RP2040_BOOTLOADER_DOUBLE_TAP_RESET_TIMEOUT 200U // Timeout window in ms in which the double tap can occur.
